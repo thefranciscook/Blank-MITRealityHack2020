@@ -1,0 +1,1215 @@
+﻿{
+    "code": "0016000123991",
+    "status": 1,
+    "product": {
+        "code": "0016000123991",
+        "product_name_fr": "Lucky charms",
+        "languages_tags": [
+            "en:english",
+            "en:french",
+            "en:2",
+            "en:multilingual"
+        ],
+        "data_quality_tags": [
+            "en:nutriscore-computations-same-score",
+            "en:nutriscore-computations-same-grade",
+            "en:ingredients-en-ending-comma",
+            "en:serving-quantity-defined-but-quantity-undefined",
+            "en:nutrition-value-over-105-energie-provenant-des-graisses"
+        ],
+        "ingredients_that_may_be_from_palm_oil_n": 0,
+        "languages_codes": {
+            "en": 4,
+            "fr": 2
+        },
+        "minerals_prev_tags": [
+        ],
+        "data_quality_info_tags": [
+            "en:nutriscore-computations-same-score",
+            "en:nutriscore-computations-same-grade"
+        ],
+        "checkers_tags": [
+        ],
+        "entry_dates_tags": [
+            "2018-08-24",
+            "2018-08",
+            "2018"
+        ],
+        "ingredients_text_with_allergens_en": "ingredients: whole grain oats, sugar, oat flour, corn syrup, modified corn starch, corn starch, dextrose, salt, gelatin, trisodium phosphate, yellow 5 , 6, red 40, blue 1, natural and artificial flavor, vitamin e (mixed tocopherols) added to preserve freshness, vitamins and minerals: calcium carbonate, zinc and iron (mineral nutrients), vitamin c (sodium ascorbate), a b vitamin (niacinamide), vitamin b, (pyridoxine hydrochloride), vitamin b2 (riboflavin), vitamin b, (thiamin mononitrate), avitamin (palmitate), ab vitamin (folic acid), vitamin b12, vitamin d,",
+        "labels_tags": [
+            "en:gluten-free"
+        ],
+        "ingredients_n": 42,
+        "lc": "en",
+        "data_sources": "App - yuka, Apps",
+        "image_front_thumb_url": "https://static.openfoodfacts.org/images/products/001/600/012/3991/front_en.24.100.jpg",
+        "allergens_hierarchy": [
+        ],
+        "popularity_tags": [
+            "top-100000-scans-2019",
+            "top-country-fr-scans-2019"
+        ],
+        "emb_codes_tags": [
+        ],
+        "codes_tags": [
+            "code-13",
+            "0016000123xxx",
+            "001600012xxxx",
+            "00160001xxxxx",
+            "0016000xxxxxx",
+            "001600xxxxxxx",
+            "00160xxxxxxxx",
+            "0016xxxxxxxxx",
+            "001xxxxxxxxxx",
+            "00xxxxxxxxxxx",
+            "0xxxxxxxxxxxx"
+        ],
+        "brands_tags": [
+            "general-mills"
+        ],
+        "minerals_tags": [
+            "en:mineral",
+            "en:calcium-carbonate",
+            "en:iron"
+        ],
+        "interface_version_modified": "20150316.jqm2",
+        "allergens_from_ingredients": "",
+        "other_nutritional_substances_tags": [
+        ],
+        "nutrient_levels": {
+            "sugars": "high",
+            "fat": "moderate",
+            "salt": "high",
+            "saturated-fat": "low"
+        },
+        "unique_scans_n": 3,
+        "nutrition_data_prepared": "",
+        "additives_old_n": 3,
+        "image_nutrition_url": "https://static.openfoodfacts.org/images/products/001/600/012/3991/nutrition_en.26.400.jpg",
+        "ingredients_tags": [
+            "en:ingredient",
+            "en:whole-grain-oats",
+            "en:sugar",
+            "en:oat-flour",
+            "en:flour",
+            "en:cereal-flour",
+            "en:corn-syrup",
+            "en:modified-corn-starch",
+            "en:starch",
+            "en:corn-starch",
+            "en:modified-starch",
+            "en:dextrose",
+            "en:glucose",
+            "en:salt",
+            "en:e428",
+            "en:e339iii",
+            "en:e339",
+            "en:e102",
+            "en:no6",
+            "en:e129",
+            "en:e133",
+            "en:natural-and-artificial-flavouring",
+            "en:flavouring",
+            "en:natural-flavouring",
+            "en:artificial-flavouring",
+            "en:vitamin-e",
+            "en:mixed-tocopherols",
+            "en:added-to-preserve-freshness",
+            "en:vitamins",
+            "en:minerals",
+            "en:e170",
+            "en:zinc",
+            "en:iron",
+            "en:mineral-nutrients",
+            "en:vitamin-c",
+            "en:e301",
+            "en:a-b-vitamin",
+            "en:e375",
+            "en:vitamin-b",
+            "en:pyridoxine-hydrochloride",
+            "en:vitamin-b6",
+            "en:e101",
+            "en:vitamine",
+            "en:thiamin-mononitrate",
+            "en:thiamin",
+            "en:vitamin-a",
+            "en:palmitate",
+            "en:ab-vitamine",
+            "en:folic-acid",
+            "en:folate",
+            "en:vitamin-b12",
+            "en:vitamin-d"
+        ],
+        "categories_hierarchy": [
+            "en:plant-based-foods-and-beverages",
+            "en:plant-based-foods",
+            "en:breakfasts",
+            "en:cereals-and-potatoes",
+            "en:cereals-and-their-products",
+            "en:breakfast-cereals"
+        ],
+        "pnns_groups_1_tags": [
+            "cereals-and-potatoes",
+            "known"
+        ],
+        "states_tags": [
+            "en:to-be-completed",
+            "en:nutrition-facts-completed",
+            "en:ingredients-completed",
+            "en:expiration-date-to-be-completed",
+            "en:packaging-code-to-be-completed",
+            "en:characteristics-to-be-completed",
+            "en:categories-completed",
+            "en:brands-completed",
+            "en:packaging-completed",
+            "en:quantity-to-be-completed",
+            "en:product-name-to-be-completed",
+            "en:photos-validated",
+            "en:photos-uploaded"
+        ],
+        "product_name": "",
+        "pnns_groups_1": "Cereals and potatoes",
+        "categories": "Plant-based foods and beverages, Plant-based foods, Breakfasts, Cereals and potatoes, Cereals and their products, Breakfast cereals",
+        "nova_group": 4,
+        "data_sources_tags": [
+            "app-yuka",
+            "apps"
+        ],
+        "labels_hierarchy": [
+            "en:gluten-free"
+        ],
+        "no_nutrition_data": "",
+        "editors_tags": [
+            "kiliweb",
+            "yuka.U3ZnOFBvWURtS0lPby9NNSt6ejI5NHRmeDRhc1hYSHVNY0UvSUE9PQ",
+            "beniben",
+            "autorotate-bot",
+            "openfoodfacts-contributors",
+            "inf",
+            "yuka.YUpnd0Zva1RpZGtxbWYwWjdFN2EzUGNwN3B5VFlFS2xKT2dPSWc9PQ",
+            "yuka.ZmF0UUZZay9sOEVXb3NZZjFBUHArL05TKzRPWFhYeTVDYlFQSWc9PQ",
+            "tacite"
+        ],
+        "languages": {
+            "en:french": 2,
+            "en:english": 4
+        },
+        "last_image_t": 1574689639,
+        "ingredients": [
+            {
+                "vegetarian": "ignore",
+                "has_sub_ingredients": "yes",
+                "id": "en:ingredient",
+                "vegan": "ignore",
+                "text": "ingredients",
+                "rank": 1
+            },
+            {
+                "id": "en:whole grain oats",
+                "text": "whole grain oats",
+                "rank": 2
+            },
+            {
+                "id": "en:sugar",
+                "vegetarian": "yes",
+                "text": "sugar",
+                "vegan": "yes",
+                "rank": 3
+            },
+            {
+                "rank": 4,
+                "text": "oat flour",
+                "vegan": "yes",
+                "vegetarian": "yes",
+                "id": "en:oat-flour"
+            },
+            {
+                "vegetarian": "yes",
+                "id": "en:corn-syrup",
+                "rank": 5,
+                "text": "corn syrup",
+                "vegan": "yes"
+            },
+            {
+                "vegan": "yes",
+                "text": "modified corn starch",
+                "rank": 6,
+                "vegetarian": "yes",
+                "id": "en:modified-corn-starch"
+            },
+            {
+                "id": "en:corn-starch",
+                "vegetarian": "yes",
+                "rank": 7,
+                "text": "corn starch",
+                "vegan": "yes"
+            },
+            {
+                "vegetarian": "yes",
+                "id": "en:dextrose",
+                "text": "dextrose",
+                "vegan": "yes",
+                "rank": 8
+            },
+            {
+                "vegetarian": "yes",
+                "id": "en:salt",
+                "rank": 9,
+                "text": "salt",
+                "vegan": "yes"
+            },
+            {
+                "vegan": "no",
+                "text": "gelatin",
+                "rank": 10,
+                "id": "en:e428",
+                "vegetarian": "no"
+            },
+            {
+                "vegan": "yes",
+                "text": "trisodium phosphate",
+                "rank": 11,
+                "id": "en:e339iii",
+                "vegetarian": "yes"
+            },
+            {
+                "vegetarian": "yes",
+                "id": "en:e102",
+                "rank": 12,
+                "text": "yellow 5",
+                "vegan": "yes"
+            },
+            {
+                "id": "en:no6",
+                "text": "6",
+                "rank": 13
+            },
+            {
+                "rank": 14,
+                "text": "red 40",
+                "vegan": "yes",
+                "vegetarian": "yes",
+                "id": "en:e129"
+            },
+            {
+                "rank": 15,
+                "text": "blue 1",
+                "vegan": "yes",
+                "id": "en:e133",
+                "vegetarian": "yes"
+            },
+            {
+                "vegetarian": "maybe",
+                "id": "en:natural-and-artificial-flavouring",
+                "text": "natural and artificial flavor",
+                "vegan": "maybe",
+                "rank": 16
+            },
+            {
+                "rank": 17,
+                "text": "vitamin e",
+                "has_sub_ingredients": "yes",
+                "id": "en:vitamin-e"
+            },
+            {
+                "text": "mixed tocopherols",
+                "rank": 18,
+                "id": "en:mixed tocopherols"
+            },
+            {
+                "rank": 19,
+                "text": "added to preserve freshness",
+                "id": "en:added to preserve freshness"
+            },
+            {
+                "has_sub_ingredients": "yes",
+                "vegetarian": "yes",
+                "id": "en:vitamins",
+                "rank": 20,
+                "text": "vitamins",
+                "vegan": "yes"
+            },
+            {
+                "rank": 21,
+                "text": "minerals",
+                "has_sub_ingredients": "yes",
+                "id": "en:minerals"
+            },
+            {
+                "vegan": "maybe",
+                "text": "calcium carbonate",
+                "rank": 22,
+                "id": "en:e170",
+                "vegetarian": "maybe"
+            },
+            {
+                "has_sub_ingredients": "yes",
+                "id": "en:zinc",
+                "text": "zinc",
+                "rank": 23
+            },
+            {
+                "rank": 24,
+                "text": "iron",
+                "id": "en:iron",
+                "has_sub_ingredients": "yes"
+            },
+            {
+                "text": "mineral nutrients",
+                "rank": 25,
+                "id": "en:mineral nutrients"
+            },
+            {
+                "id": "en:vitamin-c",
+                "vegetarian": "yes",
+                "has_sub_ingredients": "yes",
+                "text": "vitamin c",
+                "vegan": "yes",
+                "rank": 26
+            },
+            {
+                "rank": 27,
+                "vegan": "yes",
+                "text": "sodium ascorbate",
+                "id": "en:e301",
+                "vegetarian": "yes"
+            },
+            {
+                "has_sub_ingredients": "yes",
+                "id": "en:a b vitamin",
+                "rank": 28,
+                "text": "a b vitamin"
+            },
+            {
+                "text": "niacinamide",
+                "vegan": "yes",
+                "rank": 29,
+                "id": "en:e375",
+                "vegetarian": "yes"
+            },
+            {
+                "id": "en:vitamin b",
+                "text": "vitamin b",
+                "rank": 30
+            },
+            {
+                "id": "en:pyridoxine-hydrochloride",
+                "vegetarian": "yes",
+                "text": "pyridoxine hydrochloride",
+                "vegan": "yes",
+                "rank": 31
+            },
+            {
+                "id": "en:e101",
+                "has_sub_ingredients": "yes",
+                "vegetarian": "yes",
+                "rank": 32,
+                "text": "vitamin b2",
+                "vegan": "maybe"
+            },
+            {
+                "id": "en:e101",
+                "vegetarian": "yes",
+                "rank": 33,
+                "text": "riboflavin",
+                "vegan": "maybe"
+            },
+            {
+                "id": "en:vitamine",
+                "text": "vitamine",
+                "rank": 34
+            },
+            {
+                "id": "en:vitamin b",
+                "rank": 35,
+                "text": "vitamin b"
+            },
+            {
+                "id": "en:thiamin-mononitrate",
+                "text": "thiamin mononitrate",
+                "rank": 36
+            },
+            {
+                "rank": 37,
+                "text": "vitamin a",
+                "vegan": "yes",
+                "id": "en:vitamin-a",
+                "has_sub_ingredients": "yes",
+                "vegetarian": "yes"
+            },
+            {
+                "rank": 38,
+                "text": "palmitate",
+                "id": "en:palmitate"
+            },
+            {
+                "rank": 39,
+                "text": "ab vitamine",
+                "id": "en:ab vitamine"
+            },
+            {
+                "rank": 40,
+                "vegan": "yes",
+                "text": "folic acid",
+                "id": "en:folic-acid",
+                "vegetarian": "yes"
+            },
+            {
+                "rank": 41,
+                "text": "vitamin b12",
+                "id": "en:vitamin-b12"
+            },
+            {
+                "rank": 42,
+                "vegan": "yes",
+                "text": "vitamin d",
+                "id": "en:vitamin-d",
+                "vegetarian": "yes"
+            }
+        ],
+        "unknown_ingredients_n": 10,
+        "link": "",
+        "languages_hierarchy": [
+            "en:english",
+            "en:french"
+        ],
+        "nutrition_data_per": "serving",
+        "debug_param_sorted_langs": [
+            "fr",
+            "en"
+        ],
+        "origins": "",
+        "correctors_tags": [
+            "openfoodfacts-contributors",
+            "beniben",
+            "autorotate-bot",
+            "yuka.YUpnd0Zva1RpZGtxbWYwWjdFN2EzUGNwN3B5VFlFS2xKT2dPSWc9PQ",
+            "yuka.ZmF0UUZZay9sOEVXb3NZZjFBUHArL05TKzRPWFhYeTVDYlFQSWc9PQ",
+            "tacite"
+        ],
+        "manufacturing_places": "",
+        "additives_tags": [
+            "en:e102",
+            "en:e129",
+            "en:e133",
+            "en:e339",
+            "en:e339iii",
+            "en:e428"
+        ],
+        "countries": "France,États-Unis",
+        "purchase_places_tags": [
+        ],
+        "pnns_groups_2": "Breakfast cereals",
+        "last_editor": "inf",
+        "last_edit_dates_tags": [
+            "2019-12-31",
+            "2019-12",
+            "2019"
+        ],
+        "nutriscore_grade": "d",
+        "completeness": 0.6,
+        "quantity": "",
+        "generic_name_en": "",
+        "scans_n": 10,
+        "allergens": "",
+        "max_imgid": "7",
+        "stores_tags": [
+        ],
+        "labels_lc": "fr",
+        "rev": 29,
+        "ingredients_that_may_be_from_palm_oil_tags": [
+        ],
+        "ingredients_from_palm_oil_tags": [
+        ],
+        "obsolete": "",
+        "ingredients_text_fr": "",
+        "environment_impact_level": "",
+        "ingredients_text_with_allergens_fr": "",
+        "environment_impact_level_tags": [
+        ],
+        "nutrition_score_warning_no_fruits_vegetables_nuts": 1,
+        "brands": "General Mills",
+        "ingredients_from_palm_oil_n": 0,
+        "nova_group_tags": [
+            "not-applicable"
+        ],
+        "amino_acids_tags": [
+        ],
+        "expiration_date": "",
+        "additives_old_tags": [
+            "en:e102",
+            "en:e129",
+            "en:e133"
+        ],
+        "nova_groups": "4",
+        "categories_tags": [
+            "en:plant-based-foods-and-beverages",
+            "en:plant-based-foods",
+            "en:breakfasts",
+            "en:cereals-and-potatoes",
+            "en:cereals-and-their-products",
+            "en:breakfast-cereals"
+        ],
+        "product_name_en": "",
+        "emb_codes_orig": "",
+        "ingredients_hierarchy": [
+            "en:ingredient",
+            "en:whole grain oats",
+            "en:sugar",
+            "en:oat-flour",
+            "en:flour",
+            "en:cereal-flour",
+            "en:corn-syrup",
+            "en:modified-corn-starch",
+            "en:starch",
+            "en:corn-starch",
+            "en:modified-starch",
+            "en:dextrose",
+            "en:glucose",
+            "en:salt",
+            "en:e428",
+            "en:e339iii",
+            "en:e339",
+            "en:e102",
+            "en:no6",
+            "en:e129",
+            "en:e133",
+            "en:natural-and-artificial-flavouring",
+            "en:flavouring",
+            "en:natural-flavouring",
+            "en:artificial-flavouring",
+            "en:vitamin-e",
+            "en:mixed tocopherols",
+            "en:added to preserve freshness",
+            "en:vitamins",
+            "en:minerals",
+            "en:e170",
+            "en:zinc",
+            "en:iron",
+            "en:mineral nutrients",
+            "en:vitamin-c",
+            "en:e301",
+            "en:a b vitamin",
+            "en:e375",
+            "en:vitamin b",
+            "en:pyridoxine-hydrochloride",
+            "en:vitamin-b6",
+            "en:e101",
+            "en:vitamine",
+            "en:thiamin-mononitrate",
+            "en:thiamin",
+            "en:vitamin-a",
+            "en:palmitate",
+            "en:ab vitamine",
+            "en:folic-acid",
+            "en:folate",
+            "en:vitamin-b12",
+            "en:vitamin-d"
+        ],
+        "created_t": 1535127868,
+        "image_nutrition_small_url": "https://static.openfoodfacts.org/images/products/001/600/012/3991/nutrition_en.26.200.jpg",
+        "photographers_tags": [
+            "kiliweb"
+        ],
+        "traces_hierarchy": [
+        ],
+        "last_modified_t": 1577818022,
+        "interface_version_created": "20150316.jqm2",
+        "traces_lc": "fr",
+        "purchase_places": "",
+        "additives_prev_original_tags": [
+        ],
+        "nutrition_grade_fr": "d",
+        "nutrition_data": "on",
+        "image_front_url": "https://static.openfoodfacts.org/images/products/001/600/012/3991/front_en.24.400.jpg",
+        "nutrition_grades_tags": [
+            "d"
+        ],
+        "image_url": "https://static.openfoodfacts.org/images/products/001/600/012/3991/front_en.24.400.jpg",
+        "nutriments": {
+            "fiber_value": 2,
+            "carbohydrates_100g": 81.5,
+            "energy_value": 110,
+            "nutrition-score-uk": 14,
+            "salt_serving": 0.425,
+            "energy-kcal_value": 110,
+            "energy": 460,
+            "nutrition-score-uk_100g": 14,
+            "sodium_unit": "mg",
+            "carbohydrates_unit": "g",
+            "energy-kcal_100g": 1700,
+            "salt": 0.425,
+            "fat_100g": 3.7,
+            "saturated-fat_unit": "g",
+            "proteins": 2,
+            "saturated-fat_serving": 0,
+            "energie-provenant-des-graisses_value": 10,
+            "energy_serving": 460,
+            "energy-kcal_serving": 460,
+            "salt_100g": 1.57,
+            "carbohydrates_value": 22,
+            "proteins_100g": 7.41,
+            "sugars_serving": 10,
+            "energie-provenant-des-graisses_100g": 156,
+            "energy_100g": 1700,
+            "nova-group_100g": 4,
+            "carbohydrates_serving": 22,
+            "proteins_serving": 2,
+            "energie-provenant-des-graisses": 42,
+            "energie-provenant-des-graisses_serving": 42,
+            "fat_serving": 1,
+            "sodium": 0.17,
+            "proteins_value": 2,
+            "fiber_100g": 7.41,
+            "salt_value": 425,
+            "fiber_unit": "g",
+            "fat_unit": "g",
+            "fiber": 2,
+            "sugars": 10,
+            "proteins_unit": "g",
+            "salt_unit": "mg",
+            "fat_value": 1,
+            "nova-group_serving": 4,
+            "sugars_100g": 37,
+            "energie-provenant-des-graisses_unit": "kcal",
+            "energy-kcal": 460,
+            "nova-group": 4,
+            "sugars_value": 10,
+            "saturated-fat": 0,
+            "nutrition-score-fr_100g": 14,
+            "fat": 1,
+            "energie-provenant-des-graisses_label": "Énergie provenant des graisses",
+            "fiber_serving": 2,
+            "sodium_100g": 0.63,
+            "sugars_unit": "g",
+            "energy_unit": "kcal",
+            "sodium_value": 170,
+            "carbohydrates": 22,
+            "saturated-fat_100g": 0,
+            "energy-kcal_unit": "kcal",
+            "sodium_serving": 0.17,
+            "saturated-fat_value": 0,
+            "nutrition-score-fr": 14
+        },
+        "countries_hierarchy": [
+            "en:france",
+            "en:united-states"
+        ],
+        "states_hierarchy": [
+            "en:to-be-completed",
+            "en:nutrition-facts-completed",
+            "en:ingredients-completed",
+            "en:expiration-date-to-be-completed",
+            "en:packaging-code-to-be-completed",
+            "en:characteristics-to-be-completed",
+            "en:categories-completed",
+            "en:brands-completed",
+            "en:packaging-completed",
+            "en:quantity-to-be-completed",
+            "en:product-name-to-be-completed",
+            "en:photos-validated",
+            "en:photos-uploaded"
+        ],
+        "ingredients_analysis_tags": [
+            "en:palm-oil-content-unknown",
+            "en:non-vegan",
+            "en:non-vegetarian"
+        ],
+        "nutrient_levels_tags": [
+            "en:fat-in-moderate-quantity",
+            "en:saturated-fat-in-low-quantity",
+            "en:sugars-in-high-quantity",
+            "en:salt-in-high-quantity"
+        ],
+        "emb_codes": "",
+        "nutrition_grades": "d",
+        "allergens_lc": "fr",
+        "informers_tags": [
+            "yuka.U3ZnOFBvWURtS0lPby9NNSt6ejI5NHRmeDRhc1hYSHVNY0UvSUE9PQ",
+            "kiliweb",
+            "beniben",
+            "autorotate-bot",
+            "tacite",
+            "inf"
+        ],
+        "nucleotides_tags": [
+        ],
+        "lang": "en",
+        "data_quality_warnings_tags": [
+            "en:ingredients-en-ending-comma",
+            "en:serving-quantity-defined-but-quantity-undefined"
+        ],
+        "nutrition_data_prepared_per": "100g",
+        "update_key": "update_categories_taxonomy",
+        "generic_name": "",
+        "packaging_tags": [
+            "carton",
+            "boite",
+            "plastique"
+        ],
+        "origins_tags": [
+        ],
+        "complete": 0,
+        "traces_from_ingredients": "",
+        "ingredients_text_with_allergens": "ingredients: whole grain oats, sugar, oat flour, corn syrup, modified corn starch, corn starch, dextrose, salt, gelatin, trisodium phosphate, yellow 5 , 6, red 40, blue 1, natural and artificial flavor, vitamin e (mixed tocopherols) added to preserve freshness, vitamins and minerals: calcium carbonate, zinc and iron (mineral nutrients), vitamin c (sodium ascorbate), a b vitamin (niacinamide), vitamin b, (pyridoxine hydrochloride), vitamin b2 (riboflavin), vitamin b, (thiamin mononitrate), avitamin (palmitate), ab vitamin (folic acid), vitamin b12, vitamin d,",
+        "obsolete_since_date": "",
+        "serving_size": "27 g",
+        "stores": "",
+        "nova_groups_tags": [
+            "en:4-ultra-processed-food-and-drink-products"
+        ],
+        "last_image_dates_tags": [
+            "2019-11-25",
+            "2019-11",
+            "2019"
+        ],
+        "selected_images": {
+            "front": {
+                "thumb": {
+                    "en": "https://static.openfoodfacts.org/images/products/001/600/012/3991/front_en.24.100.jpg"
+                },
+                "small": {
+                    "en": "https://static.openfoodfacts.org/images/products/001/600/012/3991/front_en.24.200.jpg"
+                },
+                "display": {
+                    "en": "https://static.openfoodfacts.org/images/products/001/600/012/3991/front_en.24.400.jpg"
+                }
+            },
+            "ingredients": {
+                "small": {
+                    "en": "https://static.openfoodfacts.org/images/products/001/600/012/3991/ingredients_en.25.200.jpg"
+                },
+                "thumb": {
+                    "en": "https://static.openfoodfacts.org/images/products/001/600/012/3991/ingredients_en.25.100.jpg"
+                },
+                "display": {
+                    "en": "https://static.openfoodfacts.org/images/products/001/600/012/3991/ingredients_en.25.400.jpg"
+                }
+            },
+            "nutrition": {
+                "display": {
+                    "en": "https://static.openfoodfacts.org/images/products/001/600/012/3991/nutrition_en.26.400.jpg"
+                },
+                "thumb": {
+                    "en": "https://static.openfoodfacts.org/images/products/001/600/012/3991/nutrition_en.26.100.jpg"
+                },
+                "small": {
+                    "en": "https://static.openfoodfacts.org/images/products/001/600/012/3991/nutrition_en.26.200.jpg"
+                }
+            }
+        },
+        "image_nutrition_thumb_url": "https://static.openfoodfacts.org/images/products/001/600/012/3991/nutrition_en.26.100.jpg",
+        "serving_quantity": "27",
+        "allergens_from_user": "(fr)",
+        "ingredients_from_or_that_may_be_from_palm_oil_n": 0,
+        "image_thumb_url": "https://static.openfoodfacts.org/images/products/001/600/012/3991/front_en.24.100.jpg",
+        "image_small_url": "https://static.openfoodfacts.org/images/products/001/600/012/3991/front_en.24.200.jpg",
+        "categories_lc": "en",
+        "allergens_tags": [
+        ],
+        "additives_n": 5,
+        "image_ingredients_url": "https://static.openfoodfacts.org/images/products/001/600/012/3991/ingredients_en.25.400.jpg",
+        "nutriscore_data": {
+            "is_water": 0,
+            "is_cheese": 0,
+            "proteins_points": 4,
+            "saturated_fat_ratio_value": 0,
+            "sodium": 630,
+            "proteins_value": 7.41,
+            "is_fat": 0,
+            "fiber_points": 5,
+            "energy_value": 1700,
+            "fruits_vegetables_nuts_colza_walnut_olive_oils_points": 0,
+            "fiber_value": 7.41,
+            "sodium_points": 6,
+            "energy": 1700,
+            "saturated_fat_points": 0,
+            "fruits_vegetables_nuts_colza_walnut_olive_oils": 0,
+            "fruits_vegetables_nuts_colza_walnut_olive_oils_value": 0,
+            "proteins": 7.41,
+            "sugars_value": 37,
+            "saturated_fat_ratio": 0,
+            "sugars_points": 8,
+            "sodium_value": 630,
+            "negative_points": 19,
+            "score": 14,
+            "energy_points": 5,
+            "fiber": 7.41,
+            "sugars": 37,
+            "saturated_fat": 0,
+            "positive_points": 5,
+            "saturated_fat_value": 0,
+            "grade": "d",
+            "is_beverage": 0,
+            "saturated_fat_ratio_points": 0
+        },
+        "unknown_nutrients_tags": [
+            "energie-provenant-des-graisses"
+        ],
+        "nutrition_score_beverage": 0,
+        "nucleotides_prev_tags": [
+        ],
+        "image_ingredients_small_url": "https://static.openfoodfacts.org/images/products/001/600/012/3991/ingredients_en.25.200.jpg",
+        "_id": "0016000123991",
+        "compared_to_category": "en:breakfast-cereals",
+        "ingredients_ids_debug": [
+        ],
+        "data_quality_bugs_tags": [
+        ],
+        "sortkey": 201577818022,
+        "traces": "",
+        "ingredients_original_tags": [
+            "en:ingredient",
+            "en:whole grain oats",
+            "en:sugar",
+            "en:oat-flour",
+            "en:corn-syrup",
+            "en:modified-corn-starch",
+            "en:corn-starch",
+            "en:dextrose",
+            "en:salt",
+            "en:e428",
+            "en:e339iii",
+            "en:e102",
+            "en:no6",
+            "en:e129",
+            "en:e133",
+            "en:natural-and-artificial-flavouring",
+            "en:vitamin-e",
+            "en:mixed tocopherols",
+            "en:added to preserve freshness",
+            "en:vitamins",
+            "en:minerals",
+            "en:e170",
+            "en:zinc",
+            "en:iron",
+            "en:mineral nutrients",
+            "en:vitamin-c",
+            "en:e301",
+            "en:a b vitamin",
+            "en:e375",
+            "en:vitamin b",
+            "en:pyridoxine-hydrochloride",
+            "en:e101",
+            "en:e101",
+            "en:vitamine",
+            "en:vitamin b",
+            "en:thiamin-mononitrate",
+            "en:vitamin-a",
+            "en:palmitate",
+            "en:ab vitamine",
+            "en:folic-acid",
+            "en:vitamin-b12",
+            "en:vitamin-d"
+        ],
+        "image_front_small_url": "https://static.openfoodfacts.org/images/products/001/600/012/3991/front_en.24.200.jpg",
+        "nutriscore_score": 14,
+        "ingredients_text_en": "ingredients: whole grain oats, sugar, oat flour, corn syrup, modified corn starch, corn starch, dextrose, salt, gelatin, trisodium phosphate, yellow 5 , 6, red 40, blue 1, natural and artificial flavor, vitamin e (mixed tocopherols) added to preserve freshness, vitamins and minerals: calcium carbonate, zinc and iron (mineral nutrients), vitamin c (sodium ascorbate), a b vitamin (niacinamide), vitamin b, (pyridoxine hydrochloride), vitamin b2 (riboflavin), vitamin b, (thiamin mononitrate), vitamin a (palmitate), ab vitamin (folic acid), vitamin b12, vitamin d,",
+        "ingredients_n_tags": [
+            "42",
+            "41-50"
+        ],
+        "creator": "kiliweb",
+        "states": "en:to-be-completed, en:nutrition-facts-completed, en:ingredients-completed, en:expiration-date-to-be-completed, en:packaging-code-to-be-completed, en:characteristics-to-be-completed, en:categories-completed, en:brands-completed, en:packaging-completed, en:quantity-to-be-completed, en:product-name-to-be-completed, en:photos-validated, en:photos-uploaded",
+        "countries_lc": "fr",
+        "additives_original_tags": [
+            "en:e428",
+            "en:e339iii",
+            "en:e102",
+            "en:e129",
+            "en:e133"
+        ],
+        "additives_debug_tags": [
+        ],
+        "traces_tags": [
+        ],
+        "pnns_groups_2_tags": [
+            "breakfast-cereals",
+            "known"
+        ],
+        "packaging": "carton,boîte,plastique",
+        "traces_from_user": "(fr)",
+        "last_modified_by": "inf",
+        "countries_tags": [
+            "en:france",
+            "en:united-states"
+        ],
+        "id": "0016000123991",
+        "labels": "Sans gluten",
+        "ingredients_text_debug": "",
+        "cities_tags": [
+        ],
+        "_keywords": [
+            "general",
+            "et",
+            "vegetale",
+            "pomme",
+            "origine",
+            "vegetaux",
+            "aliment",
+            "san",
+            "de",
+            "base",
+            "terre",
+            "petit-dejeuner",
+            "mill",
+            "cereale",
+            "boisson",
+            "gluten",
+            "derive",
+            "pour"
+        ],
+        "generic_name_fr": "Lucky Charms Magical Unicorn",
+        "vitamins_prev_tags": [
+        ],
+        "nova_group_debug": " -- ingredients/en:sugar : 3 -- additives/en:e133 : 4",
+        "nutrition_score_debug": " -- energy 5 + sat-fat 0 + fr-sat-fat-for-fats 0 + sugars 8 + sodium 6 - fruits 0% 0 - fiber 5 - proteins 4 -- fsa 14 -- fr 14",
+        "amino_acids_prev_tags": [
+        ],
+        "ingredients_debug": [
+        ],
+        "vitamins_tags": [
+            "en:vitamin-e",
+            "en:vitamin-c",
+            "en:sodium-l-ascorbate",
+            "en:pyridoxine-hydrochloride",
+            "en:riboflavin",
+            "en:thiamin-mononitrate",
+            "en:vitamin-a",
+            "en:folic-acid",
+            "en:vitamin-b12",
+            "en:vitamin-d"
+        ],
+        "images": {
+            "1": {
+                "uploaded_t": 1535127870,
+                "uploader": "kiliweb",
+                "sizes": {
+                    "400": {
+                        "w": 251,
+                        "h": 400
+                    },
+                    "full": {
+                        "h": 1200,
+                        "w": 754
+                    },
+                    "100": {
+                        "w": 63,
+                        "h": 100
+                    }
+                }
+            },
+            "6": {
+                "uploaded_t": 1574688852,
+                "uploader": "kiliweb",
+                "sizes": {
+                    "400": {
+                        "w": 152,
+                        "h": 400
+                    },
+                    "full": {
+                        "h": 864,
+                        "w": 328
+                    },
+                    "100": {
+                        "h": 100,
+                        "w": 38
+                    }
+                }
+            },
+            "7": {
+                "uploaded_t": 1574689639,
+                "sizes": {
+                    "full": {
+                        "h": 1200,
+                        "w": 478
+                    },
+                    "400": {
+                        "w": 159,
+                        "h": 400
+                    },
+                    "100": {
+                        "w": 40,
+                        "h": 100
+                    }
+                },
+                "uploader": "kiliweb"
+            },
+            "5": {
+                "sizes": {
+                    "400": {
+                        "w": 194,
+                        "h": 400
+                    },
+                    "full": {
+                        "w": 398,
+                        "h": 820
+                    },
+                    "100": {
+                        "w": 49,
+                        "h": 100
+                    }
+                },
+                "uploader": "kiliweb",
+                "uploaded_t": 1574682930
+            },
+            "nutrition_en": {
+                "rev": "26",
+                "normalize": "false",
+                "white_magic": "false",
+                "x2": "0",
+                "imgid": "7",
+                "geometry": "0x0-0-0",
+                "x1": "0",
+                "sizes": {
+                    "full": {
+                        "w": 478,
+                        "h": 1200
+                    },
+                    "200": {
+                        "w": 80,
+                        "h": 200
+                    },
+                    "400": {
+                        "h": 400,
+                        "w": 159
+                    },
+                    "100": {
+                        "h": 100,
+                        "w": 40
+                    }
+                },
+                "angle": "0",
+                "y1": "0",
+                "y2": "0"
+            },
+            "2": {
+                "sizes": {
+                    "100": {
+                        "w": 100,
+                        "h": 51
+                    },
+                    "full": {
+                        "w": 2365,
+                        "h": 1197
+                    },
+                    "400": {
+                        "h": 202,
+                        "w": 400
+                    }
+                },
+                "uploader": "kiliweb",
+                "uploaded_t": 1535127872
+            },
+            "front_en": {
+                "x1": "0",
+                "sizes": {
+                    "100": {
+                        "w": 67,
+                        "h": 100
+                    },
+                    "full": {
+                        "w": 808,
+                        "h": 1200
+                    },
+                    "200": {
+                        "h": 200,
+                        "w": 135
+                    },
+                    "400": {
+                        "w": 269,
+                        "h": 400
+                    }
+                },
+                "angle": "0",
+                "y2": "0",
+                "y1": "0",
+                "rev": "24",
+                "normalize": "false",
+                "x2": "0",
+                "white_magic": "false",
+                "imgid": "3",
+                "geometry": "0x0-0-0"
+            },
+            "ingredients_en": {
+                "x1": "-6.166687011718737",
+                "y2": "377.81665039062506",
+                "y1": "101.81665039062501",
+                "angle": "90",
+                "sizes": {
+                    "200": {
+                        "w": 147,
+                        "h": 200
+                    },
+                    "400": {
+                        "h": 400,
+                        "w": 293
+                    },
+                    "full": {
+                        "h": 1632,
+                        "w": 1197
+                    },
+                    "100": {
+                        "h": 100,
+                        "w": 73
+                    }
+                },
+                "normalize": "false",
+                "white_magic": "false",
+                "x2": "215.83331298828128",
+                "rev": "25",
+                "geometry": "1314x1632--36-601",
+                "imgid": "2"
+            },
+            "4": {
+                "uploader": "kiliweb",
+                "sizes": {
+                    "100": {
+                        "h": 100,
+                        "w": 51
+                    },
+                    "400": {
+                        "w": 202,
+                        "h": 400
+                    },
+                    "full": {
+                        "w": 607,
+                        "h": 1200
+                    }
+                },
+                "uploaded_t": 1574433044
+            },
+            "3": {
+                "sizes": {
+                    "400": {
+                        "w": 269,
+                        "h": 400
+                    },
+                    "full": {
+                        "h": 1200,
+                        "w": 808
+                    },
+                    "100": {
+                        "h": 100,
+                        "w": 67
+                    }
+                },
+                "uploader": "kiliweb",
+                "uploaded_t": 1574433042
+            }
+        },
+        "ingredients_text": "ingredients: whole grain oats, sugar, oat flour, corn syrup, modified corn starch, corn starch, dextrose, salt, gelatin, trisodium phosphate, yellow 5 , 6, red 40, blue 1, natural and artificial flavor, vitamin e (mixed tocopherols) added to preserve freshness, vitamins and minerals: calcium carbonate, zinc and iron (mineral nutrients), vitamin c (sodium ascorbate), a b vitamin (niacinamide), vitamin b, (pyridoxine hydrochloride), vitamin b2 (riboflavin), vitamin b, (thiamin mononitrate), vitamin a (palmitate), ab vitamin (folic acid), vitamin b12, vitamin d,",
+        "manufacturing_places_tags": [
+        ],
+        "misc_tags": [
+            "en:nutrition-no-fruits-vegetables-nuts",
+            "en:nutrition-no-fiber-or-fruits-vegetables-nuts",
+            "en:nutriscore-computed"
+        ],
+        "data_quality_errors_tags": [
+            "en:nutrition-value-over-105-energie-provenant-des-graisses"
+        ],
+        "image_ingredients_thumb_url": "https://static.openfoodfacts.org/images/products/001/600/012/3991/ingredients_en.25.100.jpg"
+    },
+    "status_verbose": "product found"
+}

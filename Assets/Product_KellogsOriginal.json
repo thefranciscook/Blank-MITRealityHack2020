@@ -1,0 +1,1274 @@
+﻿{
+    "status": 1,
+    "code": "0032000016170",
+    "status_verbose": "product found",
+    "product": {
+        "minerals_tags": [
+            "en:mineral",
+            "en:iron"
+        ],
+        "image_front_thumb_url": "https://static.openfoodfacts.org/images/products/003/200/001/6170/front_en.8.100.jpg",
+        "allergens_hierarchy": [
+            "en:milk"
+        ],
+        "popularity_tags": [
+            "top-country-fr-scans-2019"
+        ],
+        "codes_tags": [
+            "code-13",
+            "0032000016170",
+            "003200001617x",
+            "00320000161xx",
+            "0032000016xxx",
+            "003200001xxxx",
+            "00320000xxxxx",
+            "0032000xxxxxx",
+            "003200xxxxxxx",
+            "00320xxxxxxxx",
+            "0032xxxxxxxxx",
+            "003xxxxxxxxxx",
+            "00xxxxxxxxxxx",
+            "0xxxxxxxxxxxx"
+        ],
+        "emb_codes_tags": [
+        ],
+        "brands_tags": [
+            "kellogg-s"
+        ],
+        "allergens_from_ingredients": "whey",
+        "other_nutritional_substances_tags": [
+        ],
+        "nutrient_levels": {
+            "sugars": "high",
+            "fat": "low",
+            "saturated-fat": "low",
+            "salt": "high"
+        },
+        "unique_scans_n": 2,
+        "completed_t": 1422851515,
+        "interface_version_modified": "20120622",
+        "ingredients_that_may_be_from_palm_oil_n": 0,
+        "code": "0032000016170",
+        "data_quality_tags": [
+            "en:nutriscore-computations-same-score",
+            "en:nutriscore-computations-same-grade",
+            "en:nutrition-value-very-high-for-category-proteins"
+        ],
+        "languages_tags": [
+            "en:english",
+            "en:1"
+        ],
+        "ingredients_n": 27,
+        "labels_tags": [
+        ],
+        "lc": "en",
+        "languages_codes": {
+            "en": 6
+        },
+        "minerals_prev_tags": [
+            "en:iron"
+        ],
+        "checkers_tags": [
+        ],
+        "data_quality_info_tags": [
+            "en:nutriscore-computations-same-score",
+            "en:nutriscore-computations-same-grade"
+        ],
+        "entry_dates_tags": [
+            "2015-02-02",
+            "2015-02",
+            "2015"
+        ],
+        "ingredients_text_with_allergens_en": "Rice, wheat gluten, sugar, defatted wheat germ, contains 2% or less of: salt, <span class=\"allergen\">whey</span>, malt flavoring, calcium caseinate, Vitamins and Minerals (Vitamin C (ascorbic acid), reduced iron, vitamin E (alpha tocopherol acetate), vitamin B6 (pyridoxine hydrochloride), vitamin B1 (thiamin hydrochloride), vitamin A palmitate, folic acid, vitamin B2 (riboflavin), niacinamide, vitamin B12)",
+        "editors_tags": [
+            "tacinte",
+            "kyzh",
+            "upcbot"
+        ],
+        "labels_prev_tags": [
+        ],
+        "nova_group": 4,
+        "labels_hierarchy": [
+        ],
+        "no_nutrition_data": null,
+        "ingredients": [
+            {
+                "text": "Rice",
+                "vegan": "yes",
+                "rank": 1,
+                "id": "en:rice",
+                "vegetarian": "yes"
+            },
+            {
+                "rank": 2,
+                "text": "wheat gluten",
+                "vegan": "yes",
+                "id": "en:wheat-gluten",
+                "vegetarian": "yes"
+            },
+            {
+                "vegetarian": "yes",
+                "id": "en:sugar",
+                "rank": 3,
+                "text": "sugar",
+                "vegan": "yes"
+            },
+            {
+                "rank": 4,
+                "text": "defatted wheat germ",
+                "id": "en:defatted wheat germ"
+            },
+            {
+                "text": "contains 2% and less of",
+                "rank": 5,
+                "has_sub_ingredients": "yes",
+                "id": "en:contains 2% and less of"
+            },
+            {
+                "vegan": "yes",
+                "text": "salt",
+                "rank": 6,
+                "vegetarian": "yes",
+                "id": "en:salt"
+            },
+            {
+                "vegetarian": "maybe",
+                "id": "en:whey",
+                "text": "whey",
+                "vegan": "no",
+                "rank": 7
+            },
+            {
+                "id": "en:malt flavoring",
+                "rank": 8,
+                "text": "malt flavoring"
+            },
+            {
+                "text": "calcium caseinate",
+                "rank": 9,
+                "id": "en:calcium caseinate"
+            },
+            {
+                "rank": 10,
+                "vegan": "yes",
+                "text": "Vitamins",
+                "has_sub_ingredients": "yes",
+                "vegetarian": "yes",
+                "id": "en:vitamins"
+            },
+            {
+                "has_sub_ingredients": "yes",
+                "id": "en:minerals",
+                "rank": 11,
+                "text": "Minerals"
+            },
+            {
+                "id": "en:reduced iron",
+                "rank": 12,
+                "text": "reduced iron"
+            },
+            {
+                "has_sub_ingredients": "yes",
+                "id": "en:vitamin-e",
+                "text": "vitamin E",
+                "rank": 13
+            },
+            {
+                "rank": 14,
+                "text": "alpha tocopherol acetate",
+                "id": "en:alpha tocopherol acetate"
+            },
+            {
+                "text": "vitamin B6",
+                "vegan": "yes",
+                "rank": 15,
+                "id": "en:vitamin-b6",
+                "vegetarian": "yes",
+                "has_sub_ingredients": "yes"
+            },
+            {
+                "rank": 16,
+                "vegan": "yes",
+                "text": "pyridoxine hydrochloride",
+                "vegetarian": "yes",
+                "id": "en:pyridoxine-hydrochloride"
+            },
+            {
+                "id": "en:vitamine",
+                "rank": 17,
+                "text": "vitamine"
+            },
+            {
+                "text": "vitamin B1",
+                "rank": 18,
+                "id": "en:thiamin"
+            },
+            {
+                "text": "thiamin hydrochloride",
+                "rank": 19,
+                "id": "en:thiamin-hydrochloride"
+            },
+            {
+                "id": "en:vitamin A palmitate",
+                "rank": 20,
+                "text": "vitamin A palmitate"
+            },
+            {
+                "rank": 21,
+                "vegan": "yes",
+                "text": "folic acid",
+                "id": "en:folic-acid",
+                "vegetarian": "yes"
+            },
+            {
+                "vegetarian": "yes",
+                "has_sub_ingredients": "yes",
+                "id": "en:e101",
+                "text": "vitamin B2",
+                "vegan": "maybe",
+                "rank": 22
+            },
+            {
+                "rank": 23,
+                "vegan": "maybe",
+                "text": "riboflavin",
+                "id": "en:e101",
+                "vegetarian": "yes"
+            },
+            {
+                "id": "en:e375",
+                "vegetarian": "yes",
+                "rank": 24,
+                "text": "niacinamide",
+                "vegan": "yes"
+            },
+            {
+                "rank": 25,
+                "text": "vitamin B12",
+                "id": "en:vitamin-b12"
+            },
+            {
+                "text": "Vitamin C",
+                "vegan": "yes",
+                "vegetarian": "yes",
+                "has_sub_ingredients": "yes",
+                "id": "en:vitamin-c"
+            },
+            {
+                "id": "en:e300",
+                "vegetarian": "yes",
+                "vegan": "yes",
+                "text": "ascorbic acid"
+            }
+        ],
+        "unknown_ingredients_n": 8,
+        "languages": {
+            "en:english": 6
+        },
+        "last_image_t": 1422851098,
+        "pnns_groups_1_tags": [
+            "cereals-and-potatoes",
+            "known"
+        ],
+        "categories_hierarchy": [
+            "en:plant-based-foods-and-beverages",
+            "en:plant-based-foods",
+            "en:breakfasts",
+            "en:cereals-and-potatoes",
+            "en:cereals-and-their-products",
+            "en:breakfast-cereals"
+        ],
+        "states_tags": [
+            "en:to-be-checked",
+            "en:complete",
+            "en:nutrition-facts-completed",
+            "en:ingredients-completed",
+            "en:expiration-date-to-be-completed",
+            "en:packaging-code-to-be-completed",
+            "en:characteristics-completed",
+            "en:categories-completed",
+            "en:brands-completed",
+            "en:packaging-completed",
+            "en:quantity-completed",
+            "en:product-name-completed",
+            "en:photos-validated",
+            "en:photos-uploaded"
+        ],
+        "additives_old_n": 1,
+        "ingredients_tags": [
+            "en:rice",
+            "en:wheat-gluten",
+            "en:gluten",
+            "en:sugar",
+            "en:defatted-wheat-germ",
+            "en:contains-2-and-less-of",
+            "en:salt",
+            "en:whey",
+            "en:dairy",
+            "en:malt-flavoring",
+            "en:calcium-caseinate",
+            "en:vitamins",
+            "en:minerals",
+            "en:reduced-iron",
+            "en:vitamin-e",
+            "en:alpha-tocopherol-acetate",
+            "en:vitamin-b6",
+            "en:pyridoxine-hydrochloride",
+            "en:vitamine",
+            "en:thiamin",
+            "en:thiamin-hydrochloride",
+            "en:vitamin-a-palmitate",
+            "en:folic-acid",
+            "en:folate",
+            "en:e101",
+            "en:e375",
+            "en:vitamin-b12",
+            "en:vitamin-c",
+            "en:e300"
+        ],
+        "image_nutrition_url": "https://static.openfoodfacts.org/images/products/003/200/001/6170/nutrition_en.11.400.jpg",
+        "fruits-vegetables-nuts_100g_estimate": 0,
+        "categories": "Plant-based foods and beverages, Plant-based foods, Breakfasts, Cereals and potatoes, Cereals and their products, Breakfast cereals",
+        "product_name": "Special K original",
+        "pnns_groups_1": "Cereals and potatoes",
+        "last_editor": "upcbot",
+        "last_edit_dates_tags": [
+            "2015-08-09",
+            "2015-08",
+            "2015"
+        ],
+        "nutriscore_grade": "d",
+        "completeness": 0.8,
+        "purchase_places_tags": [
+            "los-angeles",
+            "california",
+            "usa"
+        ],
+        "countries": "United States",
+        "pnns_groups_2": "Breakfast cereals",
+        "quantity": "12 oz (340 g)",
+        "generic_name_en": "Toasted rice cereal",
+        "origins": "",
+        "link": "",
+        "languages_hierarchy": [
+            "en:english"
+        ],
+        "nutrition_data_per": "serving",
+        "additives_tags": [
+        ],
+        "correctors_tags": [
+            "tacinte",
+            "kyzh",
+            "upcbot"
+        ],
+        "manufacturing_places": "",
+        "nova_groups": "4",
+        "categories_tags": [
+            "en:plant-based-foods-and-beverages",
+            "en:plant-based-foods",
+            "en:breakfasts",
+            "en:cereals-and-potatoes",
+            "en:cereals-and-their-products",
+            "en:breakfast-cereals"
+        ],
+        "brands": "Kellogg's",
+        "nutrition_score_warning_no_fruits_vegetables_nuts": 1,
+        "ingredients_from_palm_oil_n": 0,
+        "amino_acids_tags": [
+        ],
+        "expiration_date": "",
+        "additives_old_tags": [
+            "en:e307"
+        ],
+        "stores_tags": [
+            "safeway"
+        ],
+        "labels_lc": "en",
+        "rev": 14,
+        "scans_n": 4,
+        "allergens": "",
+        "max_imgid": "5",
+        "ingredients_that_may_be_from_palm_oil_tags": [
+        ],
+        "ingredients_from_palm_oil_tags": [
+        ],
+        "emb_codes": "",
+        "nutrient_levels_tags": [
+            "en:fat-in-low-quantity",
+            "en:saturated-fat-in-low-quantity",
+            "en:sugars-in-high-quantity",
+            "en:salt-in-high-quantity"
+        ],
+        "nutrition_grades": "d",
+        "additives_tags_n": null,
+        "image_url": "https://static.openfoodfacts.org/images/products/003/200/001/6170/front_en.8.400.jpg",
+        "nutriments": {
+            "sodium_unit": "g",
+            "trans-fat_value": 0,
+            "iron_100g": 0.0261,
+            "vitamin-c_label": "0",
+            "vitamin-b9_unit": "% DV",
+            "fiber_value": 0,
+            "energy-kcal_value": 120,
+            "salt_serving": 0.5588,
+            "vitamin-b2_unit": "% DV",
+            "energy": 502,
+            "energy_100g": 1620,
+            "polyunsaturated-fat_serving": 0,
+            "calcium_unit": "% DV",
+            "proteins_serving": 6,
+            "salt_100g": 1.8,
+            "vitamin-b9_label": "0",
+            "vitamin-b2_serving": 0.000595,
+            "fat_value": 0.5,
+            "vitamin-b12_value": 100,
+            "fiber": 0,
+            "polyunsaturated-fat_100g": 0,
+            "sugars": 4,
+            "vitamin-b6_unit": "% DV",
+            "calcium_value": 0,
+            "vitamin-c_100g": 0.0677,
+            "trans-fat_label": "0",
+            "saturated-fat_100g": 0,
+            "selenium_value": 10,
+            "trans-fat_100g": 0,
+            "selenium": 7e-06,
+            "vitamin-pp_unit": "% DV",
+            "sodium_100g": 0.721,
+            "fat_100g": 1.61,
+            "saturated-fat_unit": "g",
+            "vitamin-e_value": 35,
+            "energy_value": 120,
+            "vitamin-a": 0.000225,
+            "vitamin-b2_label": "0",
+            "polyunsaturated-fat_label": "0",
+            "trans-fat_serving": 0,
+            "proteins_100g": 19.4,
+            "sugars_serving": 4,
+            "vitamin-c_value": 35,
+            "vitamin-a_serving": 0.000225,
+            "fiber_100g": 0,
+            "proteins_value": 6,
+            "polyunsaturated-fat": 0,
+            "salt_value": 0.5588,
+            "monounsaturated-fat_100g": 0,
+            "vitamin-pp_label": "0",
+            "monounsaturated-fat": 0,
+            "trans-fat": 0,
+            "vitamin-b1_value": 35,
+            "selenium_unit": "% DV",
+            "vitamin-b12_label": "0",
+            "monounsaturated-fat_serving": 0,
+            "energy-kcal": 502,
+            "vitamin-e": 0.007,
+            "fat_unit": "g",
+            "vitamin-b1_serving": 0.000525,
+            "energy_unit": "kcal",
+            "vitamin-b2_100g": 0.00192,
+            "energy-kcal_unit": "kcal",
+            "saturated-fat_value": 0,
+            "nutrition-score-fr": 14,
+            "sodium_serving": 0.22352,
+            "calcium_serving": 0,
+            "sugars_value": 4,
+            "vitamin-pp": 0.007,
+            "calcium_100g": 0,
+            "nutrition-score-uk_100g": 14,
+            "salt": 0.5588,
+            "vitamin-a_value": 15,
+            "iron": 0.0081,
+            "vitamin-b1_label": "0",
+            "vitamin-b2": 0.000595,
+            "selenium_serving": 7e-06,
+            "iron_unit": "% DV",
+            "carbohydrates_100g": 74.2,
+            "potassium": 0.02,
+            "vitamin-e_serving": 0.007,
+            "nutrition-score-uk": 14,
+            "calcium": 0,
+            "vitamin-b12_unit": "% DV",
+            "vitamin-pp_serving": 0.007,
+            "monounsaturated-fat_value": 0,
+            "carbohydrates_serving": 23,
+            "vitamin-b2_value": 35,
+            "vitamin-b9_serving": 0.0004,
+            "sodium": 0.22352,
+            "vitamin-e_label": "0",
+            "vitamin-b12": 6e-06,
+            "saturated-fat_serving": 0,
+            "energy-kcal_serving": 502,
+            "vitamin-c_unit": "% DV",
+            "energy_serving": 502,
+            "vitamin-e_unit": "% DV",
+            "vitamin-b12_serving": 6e-06,
+            "potassium_100g": 0.0645,
+            "sugars_100g": 12.9,
+            "potassium_label": "0",
+            "nova-group": 4,
+            "vitamin-a_label": "0",
+            "vitamin-b6_100g": 0.00645,
+            "iron_serving": 0.0081,
+            "vitamin-b12_100g": 1.94e-05,
+            "vitamin-b1": 0.000525,
+            "proteins_unit": "g",
+            "vitamin-pp_value": 35,
+            "carbohydrates": 23,
+            "potassium_value": 20,
+            "vitamin-pp_100g": 0.0226,
+            "vitamin-b6_value": 100,
+            "monounsaturated-fat_unit": "g",
+            "vitamin-b1_100g": 0.00169,
+            "vitamin-b9_100g": 0.00129,
+            "energy-kcal_100g": 1620,
+            "carbohydrates_unit": "g",
+            "vitamin-e_100g": 0.0226,
+            "proteins": 6,
+            "vitamin-b1_unit": "% DV",
+            "vitamin-c_serving": 0.021,
+            "vitamin-b6": 0.002,
+            "vitamin-a_100g": 0.000726,
+            "nova-group_100g": 4,
+            "potassium_serving": 0.02,
+            "potassium_unit": "mg",
+            "trans-fat_unit": "g",
+            "vitamin-b9": 0.0004,
+            "iron_value": 45,
+            "fat_serving": 0.5,
+            "polyunsaturated-fat_unit": "g",
+            "vitamin-c": 0.021,
+            "polyunsaturated-fat_value": 0,
+            "vitamin-b6_serving": 0.002,
+            "carbohydrates_value": 23,
+            "nova-group_serving": 4,
+            "fiber_unit": "g",
+            "salt_unit": "g",
+            "sugars_unit": "g",
+            "sodium_value": 0.22352,
+            "monounsaturated-fat_label": "0",
+            "selenium_100g": 2.26e-05,
+            "selenium_label": "0",
+            "saturated-fat": 0,
+            "vitamin-a_unit": "% DV",
+            "vitamin-b9_value": 100,
+            "fat": 0.5,
+            "iron_label": "0",
+            "fiber_serving": 0,
+            "nutrition-score-fr_100g": 14,
+            "vitamin-b6_label": "0",
+            "calcium_label": "0"
+        },
+        "countries_hierarchy": [
+            "en:united-states"
+        ],
+        "states_hierarchy": [
+            "en:to-be-checked",
+            "en:complete",
+            "en:nutrition-facts-completed",
+            "en:ingredients-completed",
+            "en:expiration-date-to-be-completed",
+            "en:packaging-code-to-be-completed",
+            "en:characteristics-completed",
+            "en:categories-completed",
+            "en:brands-completed",
+            "en:packaging-completed",
+            "en:quantity-completed",
+            "en:product-name-completed",
+            "en:photos-validated",
+            "en:photos-uploaded"
+        ],
+        "ingredients_analysis_tags": [
+            "en:palm-oil-content-unknown",
+            "en:non-vegan",
+            "en:vegetarian-status-unknown"
+        ],
+        "nutrition_data_prepared_per": "100g",
+        "informers_tags": [
+            "tacinte",
+            "kyzh"
+        ],
+        "editors": [
+            "kyzh",
+            "tacinte",
+            "upcbot"
+        ],
+        "nucleotides_tags": [
+        ],
+        "data_quality_warnings_tags": [
+            "en:nutrition-value-very-high-for-category-proteins"
+        ],
+        "lang": "en",
+        "image_nutrition_small_url": "https://static.openfoodfacts.org/images/products/003/200/001/6170/nutrition_en.11.200.jpg",
+        "photographers_tags": [
+            "tacinte"
+        ],
+        "created_t": 1422849606,
+        "last_modified_t": 1439141749,
+        "traces_hierarchy": [
+        ],
+        "interface_version_created": "20120622",
+        "purchase_places": "Los Angeles,California,USA",
+        "product_name_en": "Special K original",
+        "emb_codes_orig": "",
+        "ingredients_hierarchy": [
+            "en:rice",
+            "en:wheat-gluten",
+            "en:gluten",
+            "en:sugar",
+            "en:defatted wheat germ",
+            "en:contains 2% and less of",
+            "en:salt",
+            "en:whey",
+            "en:dairy",
+            "en:malt flavoring",
+            "en:calcium caseinate",
+            "en:vitamins",
+            "en:minerals",
+            "en:reduced iron",
+            "en:vitamin-e",
+            "en:alpha tocopherol acetate",
+            "en:vitamin-b6",
+            "en:pyridoxine-hydrochloride",
+            "en:vitamine",
+            "en:thiamin",
+            "en:thiamin-hydrochloride",
+            "en:vitamin A palmitate",
+            "en:folic-acid",
+            "en:folate",
+            "en:e101",
+            "en:e375",
+            "en:vitamin-b12",
+            "en:vitamin-c",
+            "en:e300"
+        ],
+        "nutrition_grades_tags": [
+            "d"
+        ],
+        "new_additives_n": 2,
+        "emb_codes_20141016": "",
+        "additives_prev_original_tags": [
+        ],
+        "nutrition_grade_fr": "d",
+        "image_front_url": "https://static.openfoodfacts.org/images/products/003/200/001/6170/front_en.8.400.jpg",
+        "selected_images": {
+            "front": {
+                "display": {
+                    "en": "https://static.openfoodfacts.org/images/products/003/200/001/6170/front_en.8.400.jpg"
+                },
+                "thumb": {
+                    "en": "https://static.openfoodfacts.org/images/products/003/200/001/6170/front_en.8.100.jpg"
+                },
+                "small": {
+                    "en": "https://static.openfoodfacts.org/images/products/003/200/001/6170/front_en.8.200.jpg"
+                }
+            },
+            "ingredients": {
+                "small": {
+                    "en": "https://static.openfoodfacts.org/images/products/003/200/001/6170/ingredients_en.10.200.jpg"
+                },
+                "thumb": {
+                    "en": "https://static.openfoodfacts.org/images/products/003/200/001/6170/ingredients_en.10.100.jpg"
+                },
+                "display": {
+                    "en": "https://static.openfoodfacts.org/images/products/003/200/001/6170/ingredients_en.10.400.jpg"
+                }
+            },
+            "nutrition": {
+                "display": {
+                    "en": "https://static.openfoodfacts.org/images/products/003/200/001/6170/nutrition_en.11.400.jpg"
+                },
+                "small": {
+                    "en": "https://static.openfoodfacts.org/images/products/003/200/001/6170/nutrition_en.11.200.jpg"
+                },
+                "thumb": {
+                    "en": "https://static.openfoodfacts.org/images/products/003/200/001/6170/nutrition_en.11.100.jpg"
+                }
+            }
+        },
+        "last_image_dates_tags": [
+            "2015-02-02",
+            "2015-02",
+            "2015"
+        ],
+        "image_nutrition_thumb_url": "https://static.openfoodfacts.org/images/products/003/200/001/6170/nutrition_en.11.100.jpg",
+        "serving_quantity": 31,
+        "ingredients_from_or_that_may_be_from_palm_oil_n": 0,
+        "nutriscore_data": {
+            "grade": "d",
+            "saturated_fat_value": 0,
+            "positive_points": 0,
+            "is_beverage": 0,
+            "saturated_fat_ratio_points": 0,
+            "energy_points": 4,
+            "fiber": 0,
+            "sugars": 12.9,
+            "saturated_fat": 0,
+            "sugars_points": 2,
+            "sodium_value": 721,
+            "negative_points": 14,
+            "score": 14,
+            "sugars_value": 12.9,
+            "saturated_fat_ratio": 0,
+            "fruits_vegetables_nuts_colza_walnut_olive_oils": 0,
+            "fruits_vegetables_nuts_colza_walnut_olive_oils_value": 0,
+            "proteins": 19.4,
+            "is_fat": 0,
+            "fiber_points": 0,
+            "energy_value": 1620,
+            "fruits_vegetables_nuts_colza_walnut_olive_oils_points": 0,
+            "fiber_value": 0,
+            "energy": 1620,
+            "sodium_points": 8,
+            "saturated_fat_points": 0,
+            "saturated_fat_ratio_value": 0,
+            "proteins_value": 19.4,
+            "sodium": 721,
+            "is_water": 0,
+            "is_cheese": 0,
+            "proteins_points": 5
+        },
+        "unknown_nutrients_tags": [
+        ],
+        "nutrition_score_beverage": 0,
+        "nucleotides_prev_tags": [
+        ],
+        "image_thumb_url": "https://static.openfoodfacts.org/images/products/003/200/001/6170/front_en.8.100.jpg",
+        "allergens_tags": [
+            "en:milk"
+        ],
+        "image_small_url": "https://static.openfoodfacts.org/images/products/003/200/001/6170/front_en.8.200.jpg",
+        "categories_lc": "en",
+        "additives_n": 0,
+        "image_ingredients_url": "https://static.openfoodfacts.org/images/products/003/200/001/6170/ingredients_en.10.400.jpg",
+        "complete": 1,
+        "traces_from_ingredients": "",
+        "ingredients_text_with_allergens": "Rice, wheat gluten, sugar, defatted wheat germ, contains 2% or less of: salt, <span class=\"allergen\">whey</span>, malt flavoring, calcium caseinate, Vitamins and Minerals (Vitamin C (ascorbic acid), reduced iron, vitamin E (alpha tocopherol acetate), vitamin B6 (pyridoxine hydrochloride), vitamin B1 (thiamin hydrochloride), vitamin A palmitate, folic acid, vitamin B2 (riboflavin), niacinamide, vitamin B12)",
+        "generic_name": "Toasted rice cereal",
+        "update_key": "update_categories_taxonomy",
+        "origins_tags": [
+        ],
+        "packaging_tags": [
+            "card-carton"
+        ],
+        "stores": "Safeway",
+        "nova_groups_tags": [
+            "en:4-ultra-processed-food-and-drink-products"
+        ],
+        "serving_size": "1 cup (31 g)",
+        "ingredients_text_en": "Rice, wheat gluten, sugar, defatted wheat germ, contains 2% or less of: salt, whey, malt flavoring, calcium caseinate, Vitamins and Minerals (Vitamin C (ascorbic acid), reduced iron, vitamin E (alpha tocopherol acetate), vitamin B6 (pyridoxine hydrochloride), vitamin B1 (thiamin hydrochloride), vitamin A palmitate, folic acid, vitamin B2 (riboflavin), niacinamide, vitamin B12)",
+        "ingredients_n_tags": [
+            "27",
+            "21-30"
+        ],
+        "creator": "tacinte",
+        "states": "en:to-be-checked, en:complete, en:nutrition-facts-completed, en:ingredients-completed, en:expiration-date-to-be-completed, en:packaging-code-to-be-completed, en:characteristics-completed, en:categories-completed, en:brands-completed, en:packaging-completed, en:quantity-completed, en:product-name-completed, en:photos-validated, en:photos-uploaded",
+        "countries_lc": "en",
+        "image_front_small_url": "https://static.openfoodfacts.org/images/products/003/200/001/6170/front_en.8.200.jpg",
+        "nutriscore_score": 14,
+        "product_quantity": 340.1942775,
+        "pnns_groups_2_tags": [
+            "breakfast-cereals",
+            "known"
+        ],
+        "traces_tags": [
+        ],
+        "packaging": "card carton",
+        "last_modified_by": "upcbot",
+        "countries_tags": [
+            "en:united-states"
+        ],
+        "labels_prev_hierarchy": [
+        ],
+        "additives_debug_tags": [
+        ],
+        "additives_original_tags": [
+        ],
+        "_id": "0032000016170",
+        "compared_to_category": "en:breakfast-cereals",
+        "image_ingredients_small_url": "https://static.openfoodfacts.org/images/products/003/200/001/6170/ingredients_en.10.200.jpg",
+        "traces": "",
+        "ingredients_original_tags": [
+            "en:rice",
+            "en:wheat-gluten",
+            "en:sugar",
+            "en:defatted wheat germ",
+            "en:contains 2% and less of",
+            "en:salt",
+            "en:whey",
+            "en:malt flavoring",
+            "en:calcium caseinate",
+            "en:vitamins",
+            "en:minerals",
+            "en:reduced iron",
+            "en:vitamin-e",
+            "en:alpha tocopherol acetate",
+            "en:vitamin-b6",
+            "en:pyridoxine-hydrochloride",
+            "en:vitamine",
+            "en:thiamin",
+            "en:thiamin-hydrochloride",
+            "en:vitamin A palmitate",
+            "en:folic-acid",
+            "en:e101",
+            "en:e101",
+            "en:e375",
+            "en:vitamin-b12",
+            "en:vitamin-c",
+            "en:e300"
+        ],
+        "ingredients_ids_debug": [
+            "rice",
+            "wheat-gluten",
+            "sugar",
+            "defatted-wheat-germ",
+            "contains-2-or-less-of",
+            "salt",
+            "whey",
+            "malt-flavoring",
+            "calcium-caseinate",
+            "vitamins-and-minerals",
+            "vitamin-c",
+            "ascorbic-acid",
+            "reduced-iron",
+            "vitamin-e",
+            "alpha-tocopherol-acetate",
+            "vitamin-b6",
+            "pyridoxine-hydrochloride",
+            "vitamin-b1",
+            "thiamin-hydrochloride",
+            "vitamin-a-palmitate",
+            "folic-acid",
+            "vitamin-b2",
+            "riboflavin",
+            "niacinamide",
+            "vitamin-b12"
+        ],
+        "data_quality_bugs_tags": [
+        ],
+        "sortkey": 301439141749,
+        "ingredients_debug": [
+            "Rice",
+            ",",
+            null,
+            null,
+            null,
+            " wheat gluten",
+            ",",
+            null,
+            null,
+            null,
+            " sugar",
+            ",",
+            null,
+            null,
+            null,
+            " defatted wheat germ",
+            ",",
+            null,
+            null,
+            null,
+            " contains 2% or less of",
+            ":",
+            ":",
+            null,
+            null,
+            " salt",
+            ",",
+            null,
+            null,
+            null,
+            " whey",
+            ",",
+            null,
+            null,
+            null,
+            " malt flavoring",
+            ",",
+            null,
+            null,
+            null,
+            " calcium caseinate",
+            ",",
+            null,
+            null,
+            null,
+            " Vitamins and Minerals ",
+            "(",
+            "(",
+            null,
+            null,
+            "Vitamin C ",
+            "(",
+            "(",
+            null,
+            null,
+            "ascorbic acid)",
+            ",",
+            null,
+            null,
+            null,
+            " reduced iron",
+            ",",
+            null,
+            null,
+            null,
+            " vitamin E ",
+            "(",
+            "(",
+            null,
+            null,
+            "alpha tocopherol acetate)",
+            ",",
+            null,
+            null,
+            null,
+            " vitamin B6 ",
+            "(",
+            "(",
+            null,
+            null,
+            "pyridoxine hydrochloride)",
+            ",",
+            null,
+            null,
+            null,
+            " vitamin B1 ",
+            "(",
+            "(",
+            null,
+            null,
+            "thiamin hydrochloride)",
+            ",",
+            null,
+            null,
+            null,
+            " vitamin A palmitate",
+            ",",
+            null,
+            null,
+            null,
+            " folic acid",
+            ",",
+            null,
+            null,
+            null,
+            " vitamin B2 ",
+            "(",
+            "(",
+            null,
+            null,
+            "riboflavin)",
+            ",",
+            null,
+            null,
+            null,
+            " niacinamide",
+            ",",
+            null,
+            null,
+            null,
+            " vitamin B12)"
+        ],
+        "images": {
+            "front_en": {
+                "normalize": "checked",
+                "white_magic": null,
+                "rev": "8",
+                "geometry": "1670x2473-735-725",
+                "sizes": {
+                    "100": {
+                        "h": 100,
+                        "w": 68
+                    },
+                    "full": {
+                        "w": 1670,
+                        "h": 2473
+                    },
+                    "400": {
+                        "h": 400,
+                        "w": 270
+                    },
+                    "200": {
+                        "h": 200,
+                        "w": 135
+                    }
+                },
+                "imgid": "4"
+            },
+            "2": {
+                "uploaded_t": 1422851079,
+                "uploader": "tacinte",
+                "sizes": {
+                    "400": {
+                        "w": 297,
+                        "h": 400
+                    },
+                    "full": {
+                        "w": 3120,
+                        "h": 4208
+                    },
+                    "100": {
+                        "w": 74,
+                        "h": 100
+                    }
+                }
+            },
+            "nutrition_en": {
+                "white_magic": null,
+                "normalize": "checked",
+                "rev": "11",
+                "geometry": "714x1830-1208-1315",
+                "imgid": "2",
+                "sizes": {
+                    "100": {
+                        "w": 39,
+                        "h": 100
+                    },
+                    "full": {
+                        "h": 1830,
+                        "w": 714
+                    },
+                    "200": {
+                        "w": 78,
+                        "h": 200
+                    },
+                    "400": {
+                        "h": 400,
+                        "w": 156
+                    }
+                }
+            },
+            "5": {
+                "uploaded_t": 1422851098,
+                "sizes": {
+                    "400": {
+                        "h": 400,
+                        "w": 297
+                    },
+                    "full": {
+                        "w": 3120,
+                        "h": 4208
+                    },
+                    "100": {
+                        "h": 100,
+                        "w": 74
+                    }
+                },
+                "uploader": "tacinte"
+            },
+            "4": {
+                "sizes": {
+                    "full": {
+                        "h": 4208,
+                        "w": 3120
+                    },
+                    "400": {
+                        "w": 297,
+                        "h": 400
+                    },
+                    "100": {
+                        "h": 100,
+                        "w": 74
+                    }
+                },
+                "uploader": "tacinte",
+                "uploaded_t": 1422851094
+            },
+            "ingredients_en": {
+                "white_magic": null,
+                "normalize": "checked",
+                "rev": "10",
+                "geometry": "693x326-1218-3082",
+                "imgid": "2",
+                "sizes": {
+                    "100": {
+                        "h": 47,
+                        "w": 100
+                    },
+                    "full": {
+                        "h": 326,
+                        "w": 693
+                    },
+                    "200": {
+                        "w": 200,
+                        "h": 94
+                    },
+                    "400": {
+                        "h": 188,
+                        "w": 400
+                    }
+                }
+            },
+            "3": {
+                "uploader": "tacinte",
+                "sizes": {
+                    "full": {
+                        "w": 3120,
+                        "h": 4208
+                    },
+                    "400": {
+                        "h": 400,
+                        "w": 297
+                    },
+                    "100": {
+                        "h": 100,
+                        "w": 74
+                    }
+                },
+                "uploaded_t": 1422851086
+            },
+            "ingredients": {
+                "white_magic": null,
+                "normalize": "checked",
+                "rev": "10",
+                "geometry": "693x326-1218-3082",
+                "imgid": "2",
+                "sizes": {
+                    "100": {
+                        "h": 47,
+                        "w": 100
+                    },
+                    "full": {
+                        "h": 326,
+                        "w": 693
+                    },
+                    "200": {
+                        "w": 200,
+                        "h": 94
+                    },
+                    "400": {
+                        "h": 188,
+                        "w": 400
+                    }
+                }
+            },
+            "nutrition": {
+                "white_magic": null,
+                "normalize": "checked",
+                "rev": "11",
+                "geometry": "714x1830-1208-1315",
+                "imgid": "2",
+                "sizes": {
+                    "100": {
+                        "w": 39,
+                        "h": 100
+                    },
+                    "full": {
+                        "h": 1830,
+                        "w": 714
+                    },
+                    "200": {
+                        "w": 78,
+                        "h": 200
+                    },
+                    "400": {
+                        "h": 400,
+                        "w": 156
+                    }
+                }
+            },
+            "front": {
+                "normalize": "checked",
+                "white_magic": null,
+                "rev": "8",
+                "geometry": "1670x2473-735-725",
+                "sizes": {
+                    "100": {
+                        "h": 100,
+                        "w": 68
+                    },
+                    "full": {
+                        "w": 1670,
+                        "h": 2473
+                    },
+                    "400": {
+                        "h": 400,
+                        "w": 270
+                    },
+                    "200": {
+                        "h": 200,
+                        "w": 135
+                    }
+                },
+                "imgid": "4"
+            },
+            "1": {
+                "sizes": {
+                    "400": {
+                        "w": 297,
+                        "h": 400
+                    },
+                    "full": {
+                        "h": 4208,
+                        "w": 3120
+                    },
+                    "100": {
+                        "h": 100,
+                        "w": 74
+                    }
+                },
+                "uploader": "tacinte",
+                "uploaded_t": 1422849608
+            }
+        },
+        "vitamins_tags": [
+            "en:vitamin-c",
+            "en:l-ascorbic-acid",
+            "en:vitamin-e",
+            "en:vitamin-b6",
+            "en:pyridoxine-hydrochloride",
+            "en:thiamin",
+            "en:thiamin-hydrochloride",
+            "en:folic-acid",
+            "en:riboflavin",
+            "en:vitamin-b12"
+        ],
+        "nutrition_score_debug": " -- energy 4 + sat-fat 0 + fr-sat-fat-for-fats 0 + sugars 2 + sodium 8 - fruits 0% 0 - fiber 0 - proteins 5 -- fsa 14 -- fr 14",
+        "nova_group_debug": " -- ingredients/en:salt : 3 -- ingredients/en:whey : 4",
+        "amino_acids_prev_tags": [
+        ],
+        "misc_tags": [
+            "en:nutrition-no-fruits-vegetables-nuts",
+            "en:nutrition-no-fiber-or-fruits-vegetables-nuts",
+            "en:nutriscore-computed"
+        ],
+        "data_quality_errors_tags": [
+        ],
+        "image_ingredients_thumb_url": "https://static.openfoodfacts.org/images/products/003/200/001/6170/ingredients_en.10.100.jpg",
+        "manufacturing_places_tags": [
+        ],
+        "ingredients_text": "Rice, wheat gluten, sugar, defatted wheat germ, contains 2% or less of: salt, whey, malt flavoring, calcium caseinate, Vitamins and Minerals (Vitamin C (ascorbic acid), reduced iron, vitamin E (alpha tocopherol acetate), vitamin B6 (pyridoxine hydrochloride), vitamin B1 (thiamin hydrochloride), vitamin A palmitate, folic acid, vitamin B2 (riboflavin), niacinamide, vitamin B12)",
+        "ingredients_text_debug": "Rice, wheat gluten, sugar, defatted wheat germ, contains 2% or less of: salt, whey, malt flavoring, calcium caseinate, Vitamins and Minerals (Vitamin C (ascorbic acid), reduced iron, vitamin E (alpha tocopherol acetate), vitamin B6 (pyridoxine hydrochloride), vitamin B1 (thiamin hydrochloride), vitamin A palmitate, folic acid, vitamin B2 (riboflavin), niacinamide, vitamin B12)",
+        "cities_tags": [
+        ],
+        "countries_debug_tags": [
+        ],
+        "id": "032000016170",
+        "labels": "",
+        "vitamins_prev_tags": [
+            "en:vitamin-c",
+            "en:l-ascorbic-acid",
+            "en:vitamin-e",
+            "en:vitamin-b6",
+            "en:pyridoxine-hydrochloride",
+            "en:thiamin",
+            "en:thiamin-hydrochloride",
+            "en:folic-acid",
+            "en:riboflavin",
+            "en:vitamin-b12"
+        ],
+        "_keywords": [
+            "special",
+            "beverage",
+            "breakfast",
+            "toasted",
+            "potatoe",
+            "and",
+            "kellogg",
+            "rice",
+            "original",
+            "plant-based",
+            "food",
+            "cereal"
+        ]
+    }
+}
