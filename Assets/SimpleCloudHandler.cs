@@ -132,6 +132,14 @@ public class SimpleCloudHandler : MonoBehaviour, IObjectRecoEventHandler
     }
 
 
+    public void TrackableDistace()
+    {
+        Vector3 delta = Camera.main.transform.position - quad.transform.position;
+
+        float distance = delta.magnitude;
+
+        Debug.Log("-------------Distance:" + distance);
+    }
 
 
     /*
