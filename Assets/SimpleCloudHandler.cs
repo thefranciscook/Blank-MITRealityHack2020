@@ -21,7 +21,7 @@ public class SimpleCloudHandler : MonoBehaviour, IObjectRecoEventHandler
     public GameObject quad;
     public TextMesh textMesh;
 
-
+    public float distance;
 
     //Json
     public ProductViewModel pvm;
@@ -132,11 +132,20 @@ public class SimpleCloudHandler : MonoBehaviour, IObjectRecoEventHandler
     }
 
 
+    private void Update()
+    {
+
+        TrackableDistace();
+        pvm.updateVisibleRange(distance);
+        
+    }
+
+
     public void TrackableDistace()
     {
         Vector3 delta = Camera.main.transform.position - quad.transform.position;
 
-        float distance = delta.magnitude;
+        distance = delta.magnitude;
 
         pvm.updateVisibleRange(distance);
 
