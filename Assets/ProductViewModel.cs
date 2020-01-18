@@ -103,7 +103,7 @@ public class ProductViewModel : MonoBehaviour
     private void bindModel(ProductModel model)
     {
         Debug.Log("BLANK: Bind model: " + model.brand);
-        nutritionGradeView.text = model.grade;
+        nutritionGradeView.text = model.grade.ToUpper();
 
         hideNutrientLevelViews();
         if (model.fat != null)
