@@ -138,6 +138,8 @@ public class SimpleCloudHandler : MonoBehaviour, IObjectRecoEventHandler
 
         float distance = delta.magnitude;
 
+        pvm.updateVisibleRange(distance);
+
         Debug.Log("-------------Distance:" + distance);
     }
 

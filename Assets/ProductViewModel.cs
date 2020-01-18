@@ -8,11 +8,61 @@ using System.Net;
 using UnityEngine.UI;
 
 
-
 public class ProductViewModel : MonoBehaviour
 {
     // views
     public TextMesh brandView;
+
+    // visibility range views
+    public GameObject visibleFarView;
+    public GameObject visibleMidView;
+    public GameObject visibleCloseView;
+
+    public void updateVisibleRange(float? distanceMeter)
+    {
+        Debug.Log("BLANK: updateVisibleRange: distance: " + distanceMeter);
+
+        if (distanceMeter.HasValue && visibleFarView && visibleMidView && visibleCloseView)
+        {
+            if (distanceMeter >= 2)
+            {
+                // show nothing
+                Debug.Log("BLANK: updateVisibleRange: Too far.");
+
+                visibleFarView.SetActive(false);
+                visibleMidView.SetActive(false);
+                visibleCloseView.SetActive(false);
+            }
+            else if (distanceMeter >= 0.8)
+            {
+                // show high-level info
+                Debug.Log("BLANK: updateVisibleRange: High-level info");
+
+                visibleFarView.SetActive(true);
+                visibleMidView.SetActive(false);
+                visibleCloseView.SetActive(false);
+            }
+            else if (distanceMeter >= 0.3)
+            {
+                // show mid-detailed info
+                Debug.Log("BLANK: updateVisibleRange: Mid-level info");
+
+                visibleFarView.SetActive(false);
+                visibleMidView.SetActive(true);
+                visibleCloseView.SetActive(false);
+            }
+            else if(distanceMeter < 0.3)
+            {
+                // show highly-detailed info
+                Debug.Log("BLANK: updateVisibleRange: Detailed info");
+
+                visibleFarView.SetActive(false);
+                visibleMidView.SetActive(false);
+                visibleCloseView.SetActive(true);
+            }
+        }
+        
+    }
 
 
     private void bindModel(ProductModel model)
@@ -20,9 +70,6 @@ public class ProductViewModel : MonoBehaviour
         Debug.Log("BLANK: Bind model: " + model.brand);
         brandView.text = model.brand;
     }
-
-    static string ProductId_LuckyCharms = "0016000123991";
-    static string ProductId_KellogsOriginal = "0032000016170";
 
     // openfoodfacts.org REST API
     // doc: https://en.wiki.openfoodfacts.org/API/Read/Product
