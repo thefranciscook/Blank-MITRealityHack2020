@@ -59,6 +59,11 @@ public class ProductModel
     // ingredients_text
     public string textForVoice;
 
+    private string J2S(JSONObject propertyObject)
+    {
+        return propertyObject.ToString().Replace("\"", "");
+    }
+
     public ProductModel(string json)
     {
         Debug.Log("BLANK: JSON parse started");
@@ -69,15 +74,14 @@ public class ProductModel
         JSONObject productObject = rootObject["product"];
         JSONObject nutriscoreObject = productObject["nutriscore_data"];
 
-        this.code = rootObject["code"].ToString();
-        this.brand = productObject["brands"].ToString();
-        this.category = productObject["pnns_groups_1"].ToString();
-        this.countryOfOrigin = productObject["countries"].ToString();
-        this.hasPlasticPackaging = productObject["packaging"].ToString().Contains("plast");
+        this.code = J2S(rootObject["code"]);
+        this.brand = J2S(productObject["brands"]);
+        this.category = J2S(productObject["pnns_groups_1"]);
+        this.countryOfOrigin = J2S(productObject["countries"]);
+        this.hasPlasticPackaging = J2S(productObject["packaging"]).Contains("plast");
 
-        this.grade = nutriscoreObject["grade"].ToString();
+        this.grade = J2S(nutriscoreObject["grade"]);
 
-        //TODO inegrate first
 
         /*this.fat = nutriscoreObject["grade"].ToString();
         this.saturatedFat = nutriscoreObject["grade"].ToString();
