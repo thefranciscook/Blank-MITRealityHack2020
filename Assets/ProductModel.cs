@@ -42,6 +42,33 @@ public class ProductModel
     public Level? sugars;
     public Level? salt;
 
+    private Level? stringToLevel(string levelString)
+    {
+        Level? result = null;
+
+        if (!String.IsNullOrEmpty(levelString))
+        {
+            if (levelString.Contains("high"))
+            {
+                result = Level.High;
+            }
+            else if (levelString.Contains("moderate"))
+            {
+                result = Level.Medium;
+            }
+            else if (levelString.Contains("low"))
+            {
+                result = Level.Low;
+            }
+            else
+            {
+
+            }
+        }
+
+        return result;
+    }
+
     // nutrients data
     public KeyValuePair<string, string> nutriments;
 
@@ -73,6 +100,7 @@ public class ProductModel
         JSONObject rootObject = new JSONObject(json);
         JSONObject productObject = rootObject["product"];
         JSONObject nutriscoreObject = productObject["nutriscore_data"];
+        JSONObject nutrientLevelsObject = productObject["nutrient_levels"];
 
         this.code = J2S(rootObject["code"]);
         this.brand = J2S(productObject["brands"]);
@@ -81,12 +109,10 @@ public class ProductModel
         this.hasPlasticPackaging = J2S(productObject["packaging"]).Contains("plast");
 
         this.grade = J2S(nutriscoreObject["grade"]);
-
-
-        /*this.fat = nutriscoreObject["grade"].ToString();
-        this.saturatedFat = nutriscoreObject["grade"].ToString();
-        this.sugars = nutriscoreObject["grade"].ToString();
-        this.salt = nutriscoreObject["grade"].ToString();*/
+        this.sugars = stringToLevel(J2S(nutrientLevelsObject["sugars"]));
+        this.fat = stringToLevel(J2S(nutrientLevelsObject["fat"]));
+        this.saturatedFat = stringToLevel(J2S(nutrientLevelsObject["saturated-fat"]));
+        this.salt = stringToLevel(J2S(nutrientLevelsObject["salt"]));
 
 
         Debug.Log("BLANK: json code: plastic:" + this.hasPlasticPackaging);
