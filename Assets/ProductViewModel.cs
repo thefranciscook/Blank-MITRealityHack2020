@@ -14,6 +14,7 @@ public class ProductViewModel : MonoBehaviour
     // views
     public TextMesh brandView;
 
+
     private void bindModel(ProductModel model)
     {
         Debug.Log("BLANK: Bind model: " + model.brand);
@@ -65,22 +66,25 @@ public class ProductViewModel : MonoBehaviour
         
     }
 
-    public void GetData()
+    public void GetData(string productCode)
     {
-        GameObject temp = GameObject.Find("Quad");
-        brandView = temp.transform.GetChild(0).gameObject.GetComponent<TextMesh>();
 
+        Debug.Log("BLANK: get data");
 
-        if(brandView != null && brandView.ToString().Length > 0)
+        //GameObject temp = GameObject.Find("Quad");
+        //brandView = temp.transform.GetChild(0).gameObject.GetComponent<TextMesh>();
+        //string productCodeFromImageMetadata = brandView.text;
+
+        Debug.Log("BLANK: get data: code: " + productCode);
+
+        if (productCode != null && productCode.Length > 0)
         {
-            Debug.Log("BLANK: get data");
+            Debug.Log("BLANK: get data with code: " + productCode);
 
             //Converting TextMesh to String
-            ProductModel model = GetProduct(brandView.ToString());
+            ProductModel model = GetProduct(productCode);
 
             bindModel(model);
-
-            brandView.text = model.ToString();
 
             Debug.Log("model---------------" + model);
         }

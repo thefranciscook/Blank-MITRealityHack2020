@@ -94,7 +94,8 @@ public class SimpleCloudHandler : MonoBehaviour, IObjectRecoEventHandler
         // do something with the target metadata
         mTargetMetadata = cloudRecoSearchResult.MetaData;
 
-        ChangeTextNColor();
+        //ChangeTextNColor();
+        pvm.GetData(this.mTargetMetadata);
 
         cloud.CloudRecoEnabled = true;
 
@@ -133,36 +134,36 @@ public class SimpleCloudHandler : MonoBehaviour, IObjectRecoEventHandler
 
 
 
-
+    /*
     void ChangeTextNColor()
     {
 
         if (mTargetMetadata == "0032000016170")
         {
-            pvm.GetData();
+            pvm.GetData(mTargetMetadata);
 
-            GUI.Box(new Rect(100, 300, 200, 200), "JSON: " + pvm.brandView);
+            
 
             //textMesh.text = "kelloggs";
             textMesh.text = pvm.brandView.text;
             quadMaterial.color = Color.cyan;
             Debug.Log("----------------Kelloggs-------------------");
-            pvm.GetData();
+            pvm.GetData(this.mTargetMetadata);
         }
 
         if (mTargetMetadata == "0016000123991")
         {
-            pvm.GetData();
+            pvm.GetData(mTargetMetadata);
 
-            GUI.Box(new Rect(100, 300, 200, 200), "JSON: " + pvm.brandView);
 
             //textMesh.text = "lucky_charms";
             textMesh.text = pvm.brandView.text;
             quadMaterial.color = Color.yellow;
             Debug.Log("----------------Lucky Charms-------------------");
-            pvm.GetData();
+            pvm.GetData(mTargetMetadata);
         }
     }
+    */
 
 
 
