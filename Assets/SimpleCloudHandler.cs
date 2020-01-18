@@ -58,10 +58,10 @@ public class SimpleCloudHandler : MonoBehaviour, IObjectRecoEventHandler
     {
 
         GameObject newImageTarget = Instantiate(behaviour.gameObject) as GameObject;
-        quad = newImageTarget.transform.GetChild(0).gameObject;
-        textMesh = quad.transform.GetChild(0).gameObject.GetComponent<TextMesh>();
+        quad = newImageTarget.transform.GetChild(1).gameObject;
+        textMesh = quad.transform.GetChild(1).gameObject.GetComponent<TextMesh>();
 
-        pvm = newImageTarget.transform.GetChild(1).gameObject.GetComponent<ProductViewModel>();
+        pvm = newImageTarget.transform.GetChild(0).gameObject.GetComponent<ProductViewModel>();
 
         GameObject augmentation = null;
         if(augmentation != null)

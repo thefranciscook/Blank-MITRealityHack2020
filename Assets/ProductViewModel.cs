@@ -11,7 +11,42 @@ using UnityEngine.UI;
 public class ProductViewModel : MonoBehaviour
 {
     // views
-    public TextMesh brandView;
+    public TextMesh nutritionGradeView;
+
+    public GameObject highFatView;
+    public GameObject moderateFatView;
+    public GameObject lowFatView;
+
+    public GameObject highSaturatedFatView;
+    public GameObject moderateSaturatedFatView;
+    public GameObject lowSaturatedFatView;
+
+    public GameObject highSugarView;
+    public GameObject moderateSugarView;
+    public GameObject lowSugarView;
+
+    public GameObject highSaltView;
+    public GameObject moderateSaltView;
+    public GameObject lowSaltView;
+
+    void hideNutrientLevelViews()
+    {
+        highFatView.SetActive(false);
+        moderateFatView.SetActive(false);
+        lowFatView.SetActive(false);
+
+        highSaturatedFatView.SetActive(false);
+        moderateSaturatedFatView.SetActive(false);
+        lowSaturatedFatView.SetActive(false);
+
+        highSugarView.SetActive(false);
+        moderateSugarView.SetActive(false);
+        lowSugarView.SetActive(false);
+
+        highSaltView.SetActive(false);
+        moderateSaltView.SetActive(false);
+        lowSaltView.SetActive(false);
+    }
 
     // visibility range views
     public GameObject visibleFarView;
@@ -68,7 +103,71 @@ public class ProductViewModel : MonoBehaviour
     private void bindModel(ProductModel model)
     {
         Debug.Log("BLANK: Bind model: " + model.brand);
-        brandView.text = model.brand;
+        nutritionGradeView.text = model.grade;
+
+        hideNutrientLevelViews();
+        if (model.fat != null)
+        {
+            if (model.fat == Level.High)
+            {
+                highFatView.SetActive(true);
+            }
+            else if(model.fat == Level.Medium)
+            {
+                moderateFatView.SetActive(true);
+            }
+            else if(model.fat == Level.Low)
+            {
+                lowFatView.SetActive(true);
+            }
+
+        }
+        if(model.saturatedFat != null)
+        {
+            if (model.saturatedFat == Level.High)
+            {
+                highSaturatedFatView.SetActive(true);
+            }
+            else if (model.saturatedFat == Level.Medium)
+            {
+                moderateSaturatedFatView.SetActive(true);
+            }
+            else if (model.saturatedFat == Level.Low)
+            {
+                lowSaturatedFatView.SetActive(true);
+            }
+
+        }
+        if (model.sugars != null)
+        {
+            if (model.sugars == Level.High)
+            {
+                highSugarView.SetActive(true);
+            }
+            else if (model.sugars == Level.Medium)
+            {
+                moderateSugarView.SetActive(true);
+            }
+            else if (model.sugars == Level.Low)
+            {
+                lowSugarView.SetActive(true);
+            }
+        }
+        if (model.salt != null)
+        {
+            if (model.salt == Level.High)
+            {
+                highSaltView.SetActive(true);
+            }
+            else if (model.salt == Level.Medium)
+            {
+                moderateSaltView.SetActive(true);
+            }
+            else if (model.salt == Level.Low)
+            {
+                lowSaltView.SetActive(true);
+            }
+        }
     }
 
     // openfoodfacts.org REST API
