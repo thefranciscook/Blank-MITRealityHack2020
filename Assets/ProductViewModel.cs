@@ -85,9 +85,6 @@ public class ProductViewModel : MonoBehaviour
         
     }
 
-    // views
-    public TextMesh nutritionGradeView;
-
     public GameObject highFatView;
     public GameObject moderateFatView;
     public GameObject lowFatView;
@@ -179,7 +176,7 @@ public class ProductViewModel : MonoBehaviour
     {
         Debug.Log("BLANK: Bind model");
 
-        nutritionGradeView.text = model.grade.ToUpper();
+        //nutritionGradeView.text = model.grade.ToUpper();
         setGradeViews(model.grade);
 
         hideNutrientLevelViews();
