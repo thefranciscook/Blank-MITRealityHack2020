@@ -10,6 +10,81 @@ using UnityEngine.UI;
 
 public class ProductViewModel : MonoBehaviour
 {
+    public GameObject gradeALetter;
+    public GameObject gradeBLetter;
+    public GameObject gradeCLetter;
+    public GameObject gradeDLetter;
+    public GameObject gradeELetter;
+
+    public GameObject gradeABackgroundFar;
+    public GameObject gradeBBackgroundFar;
+    public GameObject gradeCBackgroundFar;
+    public GameObject gradeDBackgroundFar;
+    public GameObject gradeEBackgroundFar;
+
+    public GameObject gradeABackgroundMid;
+    public GameObject gradeBBackgroundMid;
+    public GameObject gradeCBackgroundMid;
+    public GameObject gradeDBackgroundMid;
+    public GameObject gradeEBackgroundMid;
+
+    void setGradeViews(string grade)
+    {
+        gradeABackgroundFar.SetActive(false);
+        gradeBBackgroundFar.SetActive(false);
+        gradeCBackgroundFar.SetActive(false);
+        gradeDBackgroundFar.SetActive(false);
+        gradeEBackgroundFar.SetActive(false);
+
+        gradeABackgroundMid.SetActive(false);
+        gradeBBackgroundMid.SetActive(false);
+        gradeCBackgroundMid.SetActive(false);
+        gradeDBackgroundMid.SetActive(false);
+        gradeEBackgroundMid.SetActive(false);
+
+        gradeALetter.SetActive(false);
+        gradeBLetter.SetActive(false);
+        gradeCLetter.SetActive(false);
+        gradeDLetter.SetActive(false);
+        gradeELetter.SetActive(false);
+
+        if (!String.IsNullOrEmpty(grade))
+        {
+            if (grade.Equals("a", StringComparison.CurrentCultureIgnoreCase))
+            {
+                gradeABackgroundFar.SetActive(true);
+                gradeABackgroundMid.SetActive(true);
+                gradeALetter.SetActive(true);
+            }
+            else if (grade.Equals("b", StringComparison.CurrentCultureIgnoreCase))
+            {
+                gradeBBackgroundFar.SetActive(true);
+                gradeBBackgroundMid.SetActive(true);
+                gradeBLetter.SetActive(true);
+            }
+            else if (grade.Equals("c", StringComparison.CurrentCultureIgnoreCase))
+            {
+                gradeCBackgroundFar.SetActive(true);
+                gradeCBackgroundMid.SetActive(true);
+                gradeCLetter.SetActive(true);
+            }
+            else if (grade.Equals("d", StringComparison.CurrentCultureIgnoreCase))
+            {
+                gradeDBackgroundFar.SetActive(true);
+                gradeDBackgroundMid.SetActive(true);
+                gradeDLetter.SetActive(true);
+            }
+            else if (grade.Equals("e", StringComparison.CurrentCultureIgnoreCase))
+            {
+                gradeEBackgroundFar.SetActive(true);
+                gradeEBackgroundMid.SetActive(true);
+                gradeELetter.SetActive(true);
+            }
+        }
+
+        
+    }
+
     // views
     public TextMesh nutritionGradeView;
 
@@ -102,8 +177,10 @@ public class ProductViewModel : MonoBehaviour
 
     private void bindModel(ProductModel model)
     {
-        Debug.Log("BLANK: Bind model: " + model.brand);
+        Debug.Log("BLANK: Bind model");
+
         nutritionGradeView.text = model.grade.ToUpper();
+        setGradeViews(model.grade);
 
         hideNutrientLevelViews();
         if (model.fat != null)
